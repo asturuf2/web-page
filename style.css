@@ -23,6 +23,7 @@ ul{
     display:flex;
     justify-content: space-around;
     padding:10px 50px;
+    align-items: center;
 }
 
 .left-block{
@@ -34,8 +35,17 @@ ul{
 }
 
 img{
-    width:100px;
+    width:250px;
     height:auto;
+}
+
+.button{
+    background-color:#3882F6;
+    width:50px;
+    padding:5px 10px;
+    margin:10px 0px;
+    border-radius: 5px;
+    
 }
 
 .two{
@@ -97,11 +107,8 @@ p{
     margin-bottom: 80px;
 }
 
+
 .four{
-
-}
-
-.container{
     display:flex;
     justify-content: space-around;
     margin:80px;
