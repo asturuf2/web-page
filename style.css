@@ -82,25 +82,61 @@ img{
 }
 
 p{
-    margin-top:80px;
-    padding:0px 80px;
     text-align:center;
     font-size:36px;
     color:#1F2937;
-    font-style:italic; 
+    font-style:italic;
+    margin-top:80px;
+    margin-left:80px;
+    margin-right:80px; 
 }  
 
 .quote{
-    text-align: right;
-    margin:0px 250px;
-    margin-bottom:80px;
-    min-width:150px
+    text-align:right;
+    margin:0px 80px;
+    margin-bottom: 80px;
 }
 
 .four{
 
 }
 
-.footer{
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin:80px;
+    padding: 40px 20px;
+    background-color:#3882F6;
+    align-items: center;
+    border-radius:5px;
+}
 
+.alert, .subtext{
+    color: white;
+}
+
+.alert{
+    font-weight: bold;
+    font-size:24px;
+}
+
+.button-two{
+    color:white;
+    border: 2px white solid;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color:#1F2937;
+    color: white;
+    align-items: center;
+}
+
+span{
+    margin:5px;
 }
